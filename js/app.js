@@ -9,20 +9,21 @@ const decrementBtn = document.querySelector(".decrement-btn");
 
 
 function incrementCount() {
-    // Write the relevant code in this block
-
+count++;
+ //document.querySelector(".increment-btn").innerCSS = .incrementBtn;
 }
+
 
 
 function decrementCount() {
     // Write the relevant code in this block
-
+    count--;
 }
 
 
 function resetCount() {
     // Write the relevant code in this block
-    
+    count = 0;
 }
 
 function renderUpdatedCount() {
@@ -31,21 +32,21 @@ function renderUpdatedCount() {
 
 incrementBtn.addEventListener("click", function () {
     // Write code below this line
-
+    count++;
     // STOP HERE
     renderUpdatedCount();
 });
 
 resetBtn.addEventListener("click", function () {
     // Write code below this line
-    
+    count=0;
     // STOP HERE
     renderUpdatedCount();
 });
 
 decrementBtn.addEventListener("click", function () {
     // Write code below this line
-
+    count--;
     // STOP HERE
     renderUpdatedCount();
 });

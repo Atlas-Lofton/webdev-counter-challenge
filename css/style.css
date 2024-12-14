@@ -66,6 +66,10 @@ body {
     text-align: center;
 }
 
-@media (width >= 500px) {
+  @media (width >= 500px) {
+    .app-card {
+        display: flex;
+        flex-direction: row;
+    }
     
-}
+} 

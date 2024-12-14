@@ -1,5 +1,18 @@
 1. Why do you use "using strict" at the top of your JS files?
+It tells javascript to use "strict mode", which reduces some common errors and bugs.
 2. What does line 3 mean?
+line three declares a variable, "count", and initializes it to 0, letting us start our counter at 0. 
 3. What is happening on lines 5-8 and why?
+We're taking css elements and making models of them to use for javascript. "Queryselector" uses the first css selector by
+ the name. const means that we can't their value later.
 4. If you implemented the functionality of the buttons,
-   why do you think I wrote the JS code the way I did?
+   why do you think I wrote the JS code the way I did? 
+   I admit I still don't know enough about javascript to know how to answer this question. The most noticeable thing to me
+   between this code and some of the code I looked at doing research for this project was that this was easier to understand
+   for beginners. I'm not sure if that's the answer you're looking for. 
+   
+    QUESTION
+
+   I am going to write a question here so I don't 
+   forget it. When we go over this in stand up. Why do we need to repeat code for the function and the event listenter? Is that the common way of writing 
+   javascript like this? 
